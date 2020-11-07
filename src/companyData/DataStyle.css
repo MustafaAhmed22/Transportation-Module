@@ -1,0 +1,74 @@
+:root {
+
+    /* Colors: */
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-406781: #406781;
+    --unnamed-color-5386a8: #5386A8;
+    --unnamed-color-609ac1: #609AC1;
+    --unnamed-color-66a4ce: #66A4CE;
+    --unnamed-color-72b4df: #72B4DF;
+    --unnamed-color-53b2d0: #53B2D0;
+    --unnamed-color-249189: #249189;
+    --unnamed-color-15655f: #15655F;
+    --unnamed-color-114441: #114441;
+    }
+
+.form-block{
+    
+    width: 100%;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 3px#707070;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: auto;
+    padding: 20px;
+}
+
+/* .form-group{
+    margin-left: 10px;
+    margin-right: 10px;
+
+} */
+
+label{
+    font-size: 13px;
+    font: normal normal medium 11px/24px Sarabun;
+    letter-spacing: 0.95px;
+}
+
+.block-header{
+   
+    width: 178px;
+    height: 33px;
+    text-align: left;
+    font: normal normal bold 25px/33px Sarabun;
+    letter-spacing: 1.25px;
+    color: #306C95;
+    opacity: 1;
+}
+.iamge-upload{
+   
+    width: 278px;
+    height: 178px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 1px 3px #00000029;
+    border: 1px solid #1b51be1c;
+    border-radius: 2px;
+    opacity: 1;
+}
+.add{
+        background: #306C95 0% 0% no-repeat padding-box;
+        border-radius: 2px;
+        opacity: 1;
+        width: 100px;
+        height: 30px;
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal small 20px/26px Sarabun;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin: 3px;
+}
